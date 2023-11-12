@@ -1,6 +1,6 @@
 {
   "rules": {
-    "videos": {
+    "chapters": {
       ".read": true,
       ".write": false
     },

@@ -1,4 +1,4 @@
-.video {
+.quizCard {
   max-width: 400px;
   height: fit-content;
   background-color: #111826;
@@ -9,11 +9,11 @@
   padding-bottom: 1rem;
 }
 
-.video:hover {
+.quizCard:hover {
   box-shadow: 0 0 15px 0 #111826;
 }
 
-.video p {
+.quizCard p {
   font-size: 16px;
   font-weight: 500;
   margin: 0.5rem 0;
@@ -23,18 +23,18 @@
   overflow: hidden;
 }
 
-.video img {
+.quizCard img {
   width: 100%;
   object-fit: cover;
 }
 
-.video .qmeta {
+.quizCard .qmeta {
   display: flex;
   justify-content: space-between;
   padding-right: 6px;
 }
 
-.video .qmeta p {
+.quizCard .qmeta p {
   font-size: 15px;
   font-weight: 400;
 }

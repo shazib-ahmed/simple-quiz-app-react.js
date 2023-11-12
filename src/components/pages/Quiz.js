@@ -39,7 +39,7 @@ export default function Quiz() {
   const history = useHistory();
   const { location } = history;
   const { state } = location;
-  const { videoTitle } = state;
+  const { chapterTitle } = state;
 
   useEffect(() => {
     dispatch({

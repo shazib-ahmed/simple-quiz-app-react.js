@@ -9,19 +9,19 @@ import {
 } from "firebase/database";
 import { useEffect, useState } from "react";
 
-export default function useVideoList(page) {
+export default function useQuizList(page) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
-  const [videos, setVideos] = useState([]);
+  const [chapters, setChapters] = useState([]);
   const [hasMore, setHasMore] = useState(true);
 
   useEffect(() => {
-    async function fetchVideos() {
+    async function fetchChapters() {
       // database related works
       const db = getDatabase();
-      const videosRef = ref(db, "videos");
-      const videoQuery = query(
-        videosRef,
+      const quizsRef = ref(db, "chapters");
+      const chapterQuery = query(
+        quizsRef,
         orderByKey(),
         startAt("" + page),
         limitToFirst(8)
@@ -31,11 +31,11 @@ export default function useVideoList(page) {
         setError(false);
         setLoading(true);
         // request firebase database
-        const snapshot = await get(videoQuery);
+        const snapshot = await get(chapterQuery);
         setLoading(false);
         if (snapshot.exists()) {
-          setVideos((prevVideos) => {
-            return [...prevVideos, ...Object.values(snapshot.val())];
+          setChapters((prevChapters) => {
+            return [...prevChapters, ...Object.values(snapshot.val())];
           });
         } else {
           setHasMore(false);
@@ -47,13 +47,13 @@ export default function useVideoList(page) {
       }
     }
 
-    fetchVideos();
+    fetchChapters();
   }, [page]);
 
   return {
     loading,
     error,
-    videos,
+    chapters,
     hasMore,
   };
 }

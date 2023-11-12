@@ -1,5 +1,5 @@
-import Videos from "../Videos";
+import HomeCom from "../HomeCom";
 
 export default function Home() {
-  return <Videos />;
+  return <HomeCom />;
 }

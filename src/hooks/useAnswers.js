@@ -1,7 +1,7 @@
 import { get, getDatabase, orderByKey, query, ref } from "firebase/database";
 import { useEffect, useState } from "react";
 
-export default function useAnswers(videoID) {
+export default function useAnswers(chapterID) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [answers, setAnswers] = useState([]);
@@ -10,7 +10,7 @@ export default function useAnswers(videoID) {
     async function fetchAnswers() {
       // database related works
       const db = getDatabase();
-      const answerRef = ref(db, "answers/" + videoID + "/questions");
+      const answerRef = ref(db, "answers/" + chapterID + "/questions");
       const answerQuery = query(answerRef, orderByKey());
 
       try {
@@ -32,7 +32,7 @@ export default function useAnswers(videoID) {
     }
 
     fetchAnswers();
-  }, [videoID]);
+  }, [chapterID]);
 
   return {
     loading,
