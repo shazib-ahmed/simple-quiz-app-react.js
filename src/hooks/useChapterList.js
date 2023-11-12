@@ -9,7 +9,7 @@ import {
 } from "firebase/database";
 import { useEffect, useState } from "react";
 
-export default function useQuizList(page) {
+export default function useChapterList(page) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [chapters, setChapters] = useState([]);

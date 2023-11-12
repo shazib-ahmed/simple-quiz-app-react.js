@@ -2,11 +2,11 @@ import { useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { Link } from "react-router-dom";
 import QuizCard from "./QuizCard";
-import useQuizList from "../hooks/useQuizList";
+import useChapterList from "../hooks/useChapterList";
 
 export default function HomeCom() {
   const [page, setPage] = useState(1);
-  const { loading, error, chapters, hasMore } = useQuizList(page);
+  const { loading, error, chapters, hasMore } = useChapterList(page);
 
   return (
     <div>

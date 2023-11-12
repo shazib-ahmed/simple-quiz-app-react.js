@@ -2,8 +2,23 @@
   "chapters": {
     "1": {
       "chapterID": "lb7wT1gVU7Y",
-      "title": "Javascript Quizes",
+      "title": "Javascript Basic Quizes",
       "noq": 4
+    },
+    "2": {
+      "chapterID": "Laravel-Quiz-1",
+      "title": "Laravel Basic Quizes",
+      "noq": 10
+    },
+    "3": {
+      "chapterID": "ReactJS-Quiz",
+      "title": "React.js Basic Quizes",
+      "noq": 10
+    },
+    "4": {
+      "chapterID": "NextJS-Quiz",
+      "title": "Next.js Basic Quizes",
+      "noq": 10
     }
   },
   "quiz": {
@@ -151,870 +166,318 @@
         }
       ]
     },
-    "5Xy-t8k_M4A": {
+    "Laravel-Quiz-1": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "What is Laravel?",
           "options": [
-            {
-              "title": "with var"
-            },
-            {
-              "title": "with let"
-            },
-            {
-              "title": "with const"
-            },
-            {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
-            }
+            { "title": "A JavaScript framework" },
+            { "title": "A PHP framework" },
+            { "title": "A CSS framework" },
+            { "title": "A Python framework" },
+            { "title": "A Ruby framework" }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Which artisan command is used to create a new controller in Laravel?",
           "options": [
-            {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995"
-            },
-            {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
-            }
+            { "title": "make:model" },
+            { "title": "make:controller" },
+            { "title": "make:middleware" },
+            { "title": "make:command" },
+            { "title": "make:view" }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "What is the purpose of Laravel's Eloquent ORM?",
           "options": [
-            {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape"
-            },
-            {
-              "title": "Jack Ma"
-            },
-            {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
-            }
+            { "title": "Object-Relational Mapping" },
+            { "title": "Object-Responsive Mapping" },
+            { "title": "Object-Resourceful Mapping" },
+            { "title": "Object-Reliable Mapping" },
+            { "title": "Object-Reusable Mapping" }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "Which Laravel feature is used for handling user authentication?",
           "options": [
-            {
-              "title": "ES2020"
-            },
-            {
-              "title": "ES2021"
-            },
-            {
-              "title": "ES6"
-            },
-            {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
-            }
+            { "title": "Passport" },
+            { "title": "Authenticator" },
+            { "title": "Guardian" },
+            { "title": "Sentry" },
+            { "title": "Watchman" }
+          ]
+        },
+        {
+          "title": "What is Laravel's Blade?",
+          "options": [
+            { "title": "A template engine" },
+            { "title": "A CSS preprocessor" },
+            { "title": "A JavaScript library" },
+            { "title": "A database schema" },
+            { "title": "A testing framework" }
+          ]
+        },
+        {
+          "title": "Which Laravel command is used to run database migrations?",
+          "options": [
+            { "title": "php artisan migrate" },
+            { "title": "php artisan seed" },
+            { "title": "php artisan rollback" },
+            { "title": "php artisan optimize" },
+            { "title": "php artisan make:migration" }
+          ]
+        },
+        {
+          "title": "What is Laravel Mix used for?",
+          "options": [
+            { "title": "Task automation and asset compilation" },
+            { "title": "Database migrations" },
+            { "title": "User authentication" },
+            { "title": "Job scheduling" },
+            { "title": "Front-end templating" }
+          ]
+        },
+        {
+          "title": "In Laravel, what does CSRF stand for?",
+          "options": [
+            { "title": "Cross-Site Request Forgery" },
+            { "title": "Cryptographic Security for Requests" },
+            { "title": "Cross-Site Request Firewall" },
+            { "title": "Centralized Security for Remote Forms" },
+            { "title": "Content-Security Resource Framework" }
+          ]
+        },
+        {
+          "title": "Which database systems does Laravel support out of the box?",
+          "options": [
+            { "title": "MySQL and SQLite" },
+            { "title": "MongoDB and Cassandra" },
+            { "title": "PostgreSQL and Redis" },
+            { "title": "MariaDB and CouchDB" },
+            { "title": "Oracle and DynamoDB" }
+          ]
+        },
+        {
+          "title": "What is the purpose of Laravel's middleware?",
+          "options": [
+            { "title": "Handling HTTP requests before they reach the controller" },
+            { "title": "Managing database connections" },
+            { "title": "Caching routes for faster access" },
+            { "title": "Encrypting user passwords" },
+            { "title": "Optimizing CSS and JavaScript files" }
           ]
         }
       ]
     },
-    "WC-g0JtEIwM": {
+    "ReactJS-Quiz": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "What is React?",
           "options": [
-            {
-              "title": "with var"
-            },
-            {
-              "title": "with let"
-            },
-            {
-              "title": "with const"
-            },
-            {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
-            }
+            { "title": "A JavaScript framework" },
+            { "title": "A PHP framework" },
+            { "title": "A CSS framework" },
+            { "title": "A JavaScript library for building user interfaces"},
+            { "title": "A database management system" }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Which company developed React.js?",
           "options": [
-            {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995"
-            },
-            {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
-            }
+            { "title": "Google" },
+            { "title": "Facebook" },
+            { "title": "Microsoft" },
+            { "title": "Apple" },
+            { "title": "Amazon" }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "What is JSX in React?",
           "options": [
-            {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape"
-            },
-            {
-              "title": "Jack Ma"
-            },
-            {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
-            }
+            { "title": "JavaScript XML"},
+            { "title": "Java Syntax Extension"},
+            { "title": "JSON Extension"},
+            { "title": "JavaScript Extension"},
+            { "title": "JavaScript and XML"}
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "What is the purpose of React's virtual DOM?",
           "options": [
-            {
-              "title": "ES2020"
-            },
-            {
-              "title": "ES2021"
-            },
-            {
-              "title": "ES6"
-            },
-            {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
-            }
+            { "title": "To improve browser performance" },
+            { "title": "To create 3D animations" },
+            { "title": "To update the DOM efficiently"},
+            { "title": "To manage server-side rendering" },
+            { "title": "To handle authentication" }
+          ]
+        },
+        {
+          "title": "Which lifecycle method is called after a component is rendered for the first time?",
+          "options": [
+            { "title": "componentDidMount" },
+            { "title": "componentWillUnmount" },
+            { "title": "componentDidUpdate" },
+            { "title": "componentWillUpdate" },
+            { "title": "componentWillMount" }
+          ]
+        },
+        {
+          "title": "In React, how can you pass data to a component from a parent component?",
+          "options": [
+            { "title": "Using props" },
+            { "title": "Using state" },
+            { "title": "Using context" },
+            { "title": "Using refs" },
+            { "title": "Using hooks" }
+          ]
+        },
+        {
+          "title": "What is React Router used for?",
+          "options": [
+            { "title": "State management" },
+            { "title": "Form validation" },
+            { "title": "Routing in a React application"},
+            { "title": "AJAX requests" },
+            { "title": "Database interactions" }
+          ]
+        },
+        {
+          "title": "Which of the following is the correct way to handle forms in React?",
+          "options": [
+            { "title": "Using div elements" },
+            { "title": "Using form tags and onSubmit event"},
+            { "title": "Using only input elements" },
+            { "title": "Using CSS for form styling" },
+            { "title": "Using JavaScript alerts" }
+          ]
+        },
+        {
+          "title": "What is the purpose of React Hooks?",
+          "options": [
+            { "title": "To create custom hooks" },
+            { "title": "To manage state and side effects in functional components" },
+            { "title": "To connect React with Redux" },
+            { "title": "To handle asynchronous actions" },
+            { "title": "To generate unique keys for components" }
+          ]
+        },
+        {
+          "title": "Which method is used to conditionally render content in React?",
+          "options": [
+            { "title": "renderIf" },
+            { "title": "displayOnCondition"},
+            { "title": "showIf" },
+            { "title": "Conditional rendering is done using JavaScript expressions within JSX" },
+            { "title": "toggleRender" }
           ]
         }
       ]
     },
-    "CHnTTzD1pAQ": {
+    "NextJS-Quiz": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "What is Next.js?",
           "options": [
-            {
-              "title": "with var"
-            },
-            {
-              "title": "with let"
-            },
-            {
-              "title": "with const"
-            },
-            {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
-            }
+            { "title": "A JavaScript framework for building user interfaces"},
+            { "title": "A PHP framework for server-side rendering"},
+            { "title": "A JavaScript framework for building static websites"},
+            { "title": "A React-based framework for building web applications with server-side rendering and routing"},
+            { "title": "A database management system for Node.js"}
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Which command is used to start a Next.js development server?",
           "options": [
-            {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995"
-            },
-            {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
-            }
+            { "title": "npm start" },
+            { "title": "next dev" },
+            { "title": "npm run server" },
+            { "title": "node app" },
+            { "title": "start next" }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "What is the purpose of the pages directory in a Next.js project?",
           "options": [
-            {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape"
-            },
-            {
-              "title": "Jack Ma"
-            },
-            {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
-            }
+            { "title": "To store CSS stylesheets" },
+            { "title": "To organize static assets" },
+            { "title": "To define API routes" },
+            { "title": "To create different pages of the application" },
+            { "title": "To manage server-side logic" }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "Which lifecycle method is commonly used in Next.js for server-side rendering?",
           "options": [
-            {
-              "title": "ES2020"
-            },
-            {
-              "title": "ES2021"
-            },
-            {
-              "title": "ES6"
-            },
-            {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
-            }
+            { "title": "componentDidMount" },
+            { "title": "getStaticProps" },
+            { "title": "componentWillUnmount" },
+            { "title": "getServerSideProps" },
+            { "title": "componentDidUpdate" }
+          ]
+        },
+        {
+          "title": "What does the `Link` component in Next.js do?",
+          "options": [
+            { "title": "Creates hyperlinks for navigation" },
+            { "title": "Defines CSS styles for links" },
+            { "title": "Manages state in React components" },
+            { "title": "Connects to a database" },
+            { "title": "Generates dynamic routes" }
+          ]
+        },
+        {
+          "title": "What is the purpose of the `getStaticPaths` function in Next.js?",
+          "options": [
+            { "title": "To generate dynamic routes at build time" },
+            { "title": "To handle dynamic data fetching" },
+            { "title": "To define static paths for pre-rendering" },
+            { "title": "To create dynamic API routes" },
+            { "title": "To manage authentication" }
+          ]
+        },
+        {
+          "title": "Which command is used to build a Next.js project for production?",
+          "options": [
+            { "title": "npm build" },
+            { "title": "next build" },
+            { "title": "npm run production" },
+            { "title": "next start" },
+            { "title": "npm deploy" }
+          ]
+        },
+        {
+          "title": "What is the purpose of the `useEffect` hook in Next.js?",
+          "options": [
+            { "title": "To manage application state" },
+            { "title": "To fetch data during server-side rendering" },
+            { "title": "To handle form submissions" },
+            { "title": "To perform side effects in functional components" },
+            { "title": "To create animations" }
+          ]
+        },
+        {
+          "title": "How can you deploy a Next.js application?",
+          "options": [
+            { "title": "Using GitHub Pages" },
+            { "title": "Deploying to a static hosting service like Vercel or Netlify" },
+            { "title": "Using a traditional server hosting provider" },
+            { "title": "Deploying to AWS Lambda" },
+            { "title": "Using Docker containers" }
+          ]
+        },
+        {
+          "title": "Which API route is used for serverless functions in Next.js?",
+          "options": [
+            { "title": "/api/serverless" },
+            { "title": "/functions" },
+            { "title": "/server" },
+            { "title": "/api/[...params]" },
+            { "title": "/next/serverless" }
           ]
         }
       ]
-    },
-    "PHy8h0BixKA": {
-      "questions": [
-        {
-          "title": "How to declare JavaScript variables?",
-          "options": [
-            {
-              "title": "with var"
-            },
-            {
-              "title": "with let"
-            },
-            {
-              "title": "with const"
-            },
-            {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
-            }
-          ]
-        },
-        {
-          "title": "When was JavaScript invented?",
-          "options": [
-            {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995"
-            },
-            {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
-            }
-          ]
-        },
-        {
-          "title": "Who or which company created JavaScript?",
-          "options": [
-            {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape"
-            },
-            {
-              "title": "Jack Ma"
-            },
-            {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
-            }
-          ]
-        },
-        {
-          "title": "What is the latest version of ECMAScript",
-          "options": [
-            {
-              "title": "ES2020"
-            },
-            {
-              "title": "ES2021"
-            },
-            {
-              "title": "ES6"
-            },
-            {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
-            }
-          ]
-        }
-      ]
-    },
-    "2C5834qx0sA": {
-      "questions": [
-        {
-          "title": "How to declare JavaScript variables?",
-          "options": [
-            {
-              "title": "with var"
-            },
-            {
-              "title": "with let"
-            },
-            {
-              "title": "with const"
-            },
-            {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
-            }
-          ]
-        },
-        {
-          "title": "When was JavaScript invented?",
-          "options": [
-            {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995"
-            },
-            {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
-            }
-          ]
-        },
-        {
-          "title": "Who or which company created JavaScript?",
-          "options": [
-            {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape"
-            },
-            {
-              "title": "Jack Ma"
-            },
-            {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
-            }
-          ]
-        },
-        {
-          "title": "What is the latest version of ECMAScript",
-          "options": [
-            {
-              "title": "ES2020"
-            },
-            {
-              "title": "ES2021"
-            },
-            {
-              "title": "ES6"
-            },
-            {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
-            }
-          ]
-        }
-      ]
-    },
-    "qImH1bFubW4": {
-      "questions": [
-        {
-          "title": "How to declare JavaScript variables?",
-          "options": [
-            {
-              "title": "with var"
-            },
-            {
-              "title": "with let"
-            },
-            {
-              "title": "with const"
-            },
-            {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
-            }
-          ]
-        },
-        {
-          "title": "When was JavaScript invented?",
-          "options": [
-            {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995"
-            },
-            {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
-            }
-          ]
-        },
-        {
-          "title": "Who or which company created JavaScript?",
-          "options": [
-            {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape"
-            },
-            {
-              "title": "Jack Ma"
-            },
-            {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
-            }
-          ]
-        },
-        {
-          "title": "What is the latest version of ECMAScript",
-          "options": [
-            {
-              "title": "ES2020"
-            },
-            {
-              "title": "ES2021"
-            },
-            {
-              "title": "ES6"
-            },
-            {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
-            }
-          ]
-        }
-      ]
-    }
+    }        
   },
   "answers": {
     "lb7wT1gVU7Y": {
@@ -1168,911 +631,317 @@
         }
       ]
     },
-    "5Xy-t8k_M4A": {
+    "Laravel-Quiz-1": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "What is Laravel?",
           "options": [
-            {
-              "title": "with var",
-              "correct": true
-            },
-            {
-              "title": "with let",
-              "correct": true
-            },
-            {
-              "title": "with const",
-              "correct": true
-            },
-            {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
-            }
+            { "title": "A JavaScript framework", "correct": false },
+            { "title": "A PHP framework", "correct": true },
+            { "title": "A CSS framework", "correct": false },
+            { "title": "A Python framework", "correct": false },
+            { "title": "A Ruby framework", "correct": false }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Which artisan command is used to create a new controller in Laravel?",
           "options": [
-            {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
-              "correct": true
-            },
-            {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
-            }
+            { "title": "make:model", "correct": false },
+            { "title": "make:controller", "correct": true },
+            { "title": "make:middleware", "correct": false },
+            { "title": "make:command", "correct": false },
+            { "title": "make:view", "correct": false }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "What is the purpose of Laravel's Eloquent ORM?",
           "options": [
-            {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape",
-              "correct": true
-            },
-            {
-              "title": "Jack Ma"
-            },
-            {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
-            }
+            { "title": "Object-Relational Mapping", "correct": true },
+            { "title": "Object-Responsive Mapping", "correct": false },
+            { "title": "Object-Resourceful Mapping", "correct": false },
+            { "title": "Object-Reliable Mapping", "correct": false },
+            { "title": "Object-Reusable Mapping", "correct": false }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "Which Laravel feature is used for handling user authentication?",
           "options": [
-            {
-              "title": "ES2020"
-            },
-            {
-              "title": "ES2021",
-              "correct": true
-            },
-            {
-              "title": "ES6"
-            },
-            {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
-            }
+            { "title": "Passport", "correct": false },
+            { "title": "Authenticator", "correct": false },
+            { "title": "Guardian", "correct": false },
+            { "title": "Sentry", "correct": false },
+            { "title": "Watchman", "correct": false }
+          ]
+        },
+        {
+          "title": "What is Laravel's Blade?",
+          "options": [
+            { "title": "A template engine", "correct": true },
+            { "title": "A CSS preprocessor", "correct": false },
+            { "title": "A JavaScript library", "correct": false },
+            { "title": "A database schema", "correct": false },
+            { "title": "A testing framework", "correct": false }
+          ]
+        },
+        {
+          "title": "Which Laravel command is used to run database migrations?",
+          "options": [
+            { "title": "php artisan migrate", "correct": true },
+            { "title": "php artisan seed", "correct": false },
+            { "title": "php artisan rollback", "correct": false },
+            { "title": "php artisan optimize", "correct": false },
+            { "title": "php artisan make:migration", "correct": false }
+          ]
+        },
+        {
+          "title": "What is Laravel Mix used for?",
+          "options": [
+            { "title": "Task automation and asset compilation", "correct": true },
+            { "title": "Database migrations", "correct": false },
+            { "title": "User authentication", "correct": false },
+            { "title": "Job scheduling", "correct": false },
+            { "title": "Front-end templating", "correct": false }
+          ]
+        },
+        {
+          "title": "In Laravel, what does CSRF stand for?",
+          "options": [
+            { "title": "Cross-Site Request Forgery", "correct": true },
+            { "title": "Cryptographic Security for Requests", "correct": false },
+            { "title": "Cross-Site Request Firewall", "correct": false },
+            { "title": "Centralized Security for Remote Forms", "correct": false },
+            { "title": "Content-Security Resource Framework", "correct": false }
+          ]
+        },
+        {
+          "title": "Which database systems does Laravel support out of the box?",
+          "options": [
+            { "title": "MySQL and SQLite", "correct": true },
+            { "title": "MongoDB and Cassandra", "correct": false },
+            { "title": "PostgreSQL and Redis", "correct": false },
+            { "title": "MariaDB and CouchDB", "correct": false },
+            { "title": "Oracle and DynamoDB", "correct": false }
+          ]
+        },
+        {
+          "title": "What is the purpose of Laravel's middleware?",
+          "options": [
+            { "title": "Handling HTTP requests before they reach the controller", "correct": true },
+            { "title": "Managing database connections", "correct": false },
+            { "title": "Caching routes for faster access", "correct": false },
+            { "title": "Encrypting user passwords", "correct": false },
+            { "title": "Optimizing CSS and JavaScript files", "correct": false }
           ]
         }
       ]
     },
-    "WC-g0JtEIwM": {
+    "ReactJS-Quiz": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "What is React?",
           "options": [
-            {
-              "title": "with var",
-              "correct": true
-            },
-            {
-              "title": "with let",
-              "correct": true
-            },
-            {
-              "title": "with const",
-              "correct": true
-            },
-            {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
-            }
+            { "title": "A JavaScript framework", "correct": false },
+            { "title": "A PHP framework", "correct": false },
+            { "title": "A CSS framework", "correct": false },
+            { "title": "A JavaScript library for building user interfaces", "correct": true },
+            { "title": "A database management system", "correct": false }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Which company developed React.js?",
           "options": [
-            {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
-              "correct": true
-            },
-            {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
-            }
+            { "title": "Google", "correct": false },
+            { "title": "Facebook", "correct": true },
+            { "title": "Microsoft", "correct": false },
+            { "title": "Apple", "correct": false },
+            { "title": "Amazon", "correct": false }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "What is JSX in React?",
           "options": [
-            {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape",
-              "correct": true
-            },
-            {
-              "title": "Jack Ma"
-            },
-            {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
-            }
+            { "title": "JavaScript XML", "correct": true },
+            { "title": "Java Syntax Extension", "correct": false },
+            { "title": "JSON Extension", "correct": false },
+            { "title": "JavaScript Extension", "correct": false },
+            { "title": "JavaScript and XML", "correct": false }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "What is the purpose of React's virtual DOM?",
           "options": [
-            {
-              "title": "ES2020"
-            },
-            {
-              "title": "ES2021",
-              "correct": true
-            },
-            {
-              "title": "ES6"
-            },
-            {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
-            }
+            { "title": "To improve browser performance", "correct": false },
+            { "title": "To create 3D animations", "correct": false },
+            { "title": "To update the DOM efficiently", "correct": true },
+            { "title": "To manage server-side rendering", "correct": false },
+            { "title": "To handle authentication", "correct": false }
+          ]
+        },
+        {
+          "title": "Which lifecycle method is called after a component is rendered for the first time?",
+          "options": [
+            { "title": "componentDidMount", "correct": true },
+            { "title": "componentWillUnmount", "correct": false },
+            { "title": "componentDidUpdate", "correct": false },
+            { "title": "componentWillUpdate", "correct": false },
+            { "title": "componentWillMount", "correct": false }
+          ]
+        },
+        {
+          "title": "In React, how can you pass data to a component from a parent component?",
+          "options": [
+            { "title": "Using props", "correct": true },
+            { "title": "Using state", "correct": false },
+            { "title": "Using context", "correct": false },
+            { "title": "Using refs", "correct": false },
+            { "title": "Using hooks", "correct": false }
+          ]
+        },
+        {
+          "title": "What is React Router used for?",
+          "options": [
+            { "title": "State management", "correct": false },
+            { "title": "Form validation", "correct": false },
+            { "title": "Routing in a React application", "correct": true },
+            { "title": "AJAX requests", "correct": false },
+            { "title": "Database interactions", "correct": false }
+          ]
+        },
+        {
+          "title": "Which of the following is the correct way to handle forms in React?",
+          "options": [
+            { "title": "Using div elements", "correct": false },
+            { "title": "Using form tags and onSubmit event", "correct": true },
+            { "title": "Using only input elements", "correct": false },
+            { "title": "Using CSS for form styling", "correct": false },
+            { "title": "Using JavaScript alerts", "correct": false }
+          ]
+        },
+        {
+          "title": "What is the purpose of React Hooks?",
+          "options": [
+            { "title": "To create custom hooks", "correct": false },
+            { "title": "To manage state and side effects in functional components", "correct": true },
+            { "title": "To connect React with Redux", "correct": false },
+            { "title": "To handle asynchronous actions", "correct": false },
+            { "title": "To generate unique keys for components", "correct": false }
+          ]
+        },
+        {
+          "title": "Which method is used to conditionally render content in React?",
+          "options": [
+            { "title": "renderIf", "correct": false },
+            { "title": "displayOnCondition", "correct": false },
+            { "title": "showIf", "correct": false },
+            { "title": "Conditional rendering is done using JavaScript expressions within JSX", "correct": true },
+            { "title": "toggleRender", "correct": false }
           ]
         }
       ]
     },
-    "CHnTTzD1pAQ": {
+    "NextJS-Quiz": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "What is Next.js?",
           "options": [
-            {
-              "title": "with var",
-              "correct": true
-            },
-            {
-              "title": "with let",
-              "correct": true
-            },
-            {
-              "title": "with const",
-              "correct": true
-            },
-            {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
-            }
+            { "title": "A JavaScript framework for building user interfaces", "correct": false },
+            { "title": "A PHP framework for server-side rendering", "correct": false },
+            { "title": "A JavaScript framework for building static websites", "correct": false },
+            { "title": "A React-based framework for building web applications with server-side rendering and routing", "correct": true },
+            { "title": "A database management system for Node.js", "correct": false }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Which command is used to start a Next.js development server?",
           "options": [
-            {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
-              "correct": true
-            },
-            {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
-            }
+            { "title": "npm start", "correct": false },
+            { "title": "next dev", "correct": true },
+            { "title": "npm run server", "correct": false },
+            { "title": "node app", "correct": false },
+            { "title": "start next", "correct": false }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "What is the purpose of the pages directory in a Next.js project?",
           "options": [
-            {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape",
-              "correct": true
-            },
-            {
-              "title": "Jack Ma"
-            },
-            {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
-            }
+            { "title": "To store CSS stylesheets", "correct": false },
+            { "title": "To organize static assets", "correct": false },
+            { "title": "To define API routes", "correct": false },
+            { "title": "To create different pages of the application", "correct": true },
+            { "title": "To manage server-side logic", "correct": false }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "Which lifecycle method is commonly used in Next.js for server-side rendering?",
           "options": [
-            {
-              "title": "ES2020"
-            },
-            {
-              "title": "ES2021",
-              "correct": true
-            },
-            {
-              "title": "ES6"
-            },
-            {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
-            }
+            { "title": "componentDidMount", "correct": false },
+            { "title": "getStaticProps", "correct": true },
+            { "title": "componentWillUnmount", "correct": false },
+            { "title": "getServerSideProps", "correct": false },
+            { "title": "componentDidUpdate", "correct": false }
+          ]
+        },
+        {
+          "title": "What does the `Link` component in Next.js do?",
+          "options": [
+            { "title": "Creates hyperlinks for navigation", "correct": true },
+            { "title": "Defines CSS styles for links", "correct": false },
+            { "title": "Manages state in React components", "correct": false },
+            { "title": "Connects to a database", "correct": false },
+            { "title": "Generates dynamic routes", "correct": false }
+          ]
+        },
+        {
+          "title": "What is the purpose of the `getStaticPaths` function in Next.js?",
+          "options": [
+            { "title": "To generate dynamic routes at build time", "correct": true },
+            { "title": "To handle dynamic data fetching", "correct": false },
+            { "title": "To define static paths for pre-rendering", "correct": false },
+            { "title": "To create dynamic API routes", "correct": false },
+            { "title": "To manage authentication", "correct": false }
+          ]
+        },
+        {
+          "title": "Which command is used to build a Next.js project for production?",
+          "options": [
+            { "title": "npm build", "correct": true },
+            { "title": "next build", "correct": true },
+            { "title": "npm run production", "correct": false },
+            { "title": "next start", "correct": false },
+            { "title": "npm deploy", "correct": false }
+          ]
+        },
+        {
+          "title": "What is the purpose of the `useEffect` hook in Next.js?",
+          "options": [
+            { "title": "To manage application state", "correct": false },
+            { "title": "To fetch data during server-side rendering", "correct": false },
+            { "title": "To handle form submissions", "correct": false },
+            { "title": "To perform side effects in functional components", "correct": true },
+            { "title": "To create animations", "correct": false }
+          ]
+        },
+        {
+          "title": "How can you deploy a Next.js application?",
+          "options": [
+            { "title": "Using GitHub Pages", "correct": false },
+            { "title": "Deploying to a static hosting service like Vercel or Netlify", "correct": true },
+            { "title": "Using a traditional server hosting provider", "correct": false },
+            { "title": "Deploying to AWS Lambda", "correct": false },
+            { "title": "Using Docker containers", "correct": false }
+          ]
+        },
+        {
+          "title": "Which API route is used for serverless functions in Next.js?",
+          "options": [
+            { "title": "/api/serverless", "correct": false },
+            { "title": "/functions", "correct": false },
+            { "title": "/server", "correct": false },
+            { "title": "/api/[...params]", "correct": true },
+            { "title": "/next/serverless", "correct": false }
           ]
         }
       ]
-    },
-    "PHy8h0BixKA": {
-      "questions": [
-        {
-          "title": "How to declare JavaScript variables?",
-          "options": [
-            {
-              "title": "with var",
-              "correct": true
-            },
-            {
-              "title": "with let",
-              "correct": true
-            },
-            {
-              "title": "with const",
-              "correct": true
-            },
-            {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
-            }
-          ]
-        },
-        {
-          "title": "When was JavaScript invented?",
-          "options": [
-            {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
-              "correct": true
-            },
-            {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
-            }
-          ]
-        },
-        {
-          "title": "Who or which company created JavaScript?",
-          "options": [
-            {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape",
-              "correct": true
-            },
-            {
-              "title": "Jack Ma"
-            },
-            {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
-            }
-          ]
-        },
-        {
-          "title": "What is the latest version of ECMAScript",
-          "options": [
-            {
-              "title": "ES2020"
-            },
-            {
-              "title": "ES2021",
-              "correct": true
-            },
-            {
-              "title": "ES6"
-            },
-            {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
-            }
-          ]
-        }
-      ]
-    },
-    "2C5834qx0sA": {
-      "questions": [
-        {
-          "title": "How to declare JavaScript variables?",
-          "options": [
-            {
-              "title": "with var",
-              "correct": true
-            },
-            {
-              "title": "with let",
-              "correct": true
-            },
-            {
-              "title": "with const",
-              "correct": true
-            },
-            {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
-            }
-          ]
-        },
-        {
-          "title": "When was JavaScript invented?",
-          "options": [
-            {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
-              "correct": true
-            },
-            {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
-            }
-          ]
-        },
-        {
-          "title": "Who or which company created JavaScript?",
-          "options": [
-            {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape",
-              "correct": true
-            },
-            {
-              "title": "Jack Ma"
-            },
-            {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
-            }
-          ]
-        },
-        {
-          "title": "What is the latest version of ECMAScript",
-          "options": [
-            {
-              "title": "ES2020"
-            },
-            {
-              "title": "ES2021",
-              "correct": true
-            },
-            {
-              "title": "ES6"
-            },
-            {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
-            }
-          ]
-        }
-      ]
-    },
-    "qImH1bFubW4": {
-      "questions": [
-        {
-          "title": "How to declare JavaScript variables?",
-          "options": [
-            {
-              "title": "with var",
-              "correct": true
-            },
-            {
-              "title": "with let",
-              "correct": true
-            },
-            {
-              "title": "with const",
-              "correct": true
-            },
-            {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
-            }
-          ]
-        },
-        {
-          "title": "When was JavaScript invented?",
-          "options": [
-            {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
-              "correct": true
-            },
-            {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
-            }
-          ]
-        },
-        {
-          "title": "Who or which company created JavaScript?",
-          "options": [
-            {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape",
-              "correct": true
-            },
-            {
-              "title": "Jack Ma"
-            },
-            {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
-            }
-          ]
-        },
-        {
-          "title": "What is the latest version of ECMAScript",
-          "options": [
-            {
-              "title": "ES2020"
-            },
-            {
-              "title": "ES2021",
-              "correct": true
-            },
-            {
-              "title": "ES6"
-            },
-            {
-              "title": "ES7"
-            },
-            {
-              "title": "ES8"
-            },
-            {
-              "title": "ES2022"
-            },
-            {
-              "title": "ES21"
-            },
-            {
-              "title": "ES3"
-            },
-            {
-              "title": "ES9"
-            },
-            {
-              "title": "ES2020"
-            }
-          ]
-        }
-      ]
-    }
+    }        
   }
 }
